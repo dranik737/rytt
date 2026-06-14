@@ -1,0 +1,9 @@
+
+:root{--bg:#0a0f1c;--surface:#121a2a;--accent:#4f8cff;--text:#f5f7ff}
+body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text)}
+header{position:sticky;top:0;padding:18px 5%;display:flex;justify-content:space-between;background:#0a0f1cee}
+.hero{padding:120px 8%}.hero h1{font-size:72px;max-width:900px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.card{background:var(--surface);padding:24px;border-radius:18px}
+.container{width:min(1280px,92%);margin:auto}
+footer{padding:50px;text-align:center}
